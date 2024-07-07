@@ -1,0 +1,74 @@
+.checkout-info-container{
+    padding-top: 3%;
+    color: #fff;
+    display: flex;
+    background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
+
+.checkout-product-info {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.checkout-image-container {
+    position: relative;
+    padding: 5px;
+}
+
+.subtotal {
+    margin-right: auto;
+    margin-left: 2%;
+}
+
+.proceed-to-payment {
+    margin-left: auto;
+    margin-right: 5%
+}
+
+.checkout-product-img {
+    height: 130px;
+    width: 200px;
+}
+
+.checkout-product {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    margin: 30px;
+}
+
+.checkout-container {
+    height: 80%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+.checkout-items {
+    color: #5B42F3;
+    overflow-y: auto;
+}
+
+.button-design2 {
+    padding:10px;
+    background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    margin:10px 0;
+    display:block;
+    text-align:center;
+    color:#fff;
+    transition:all 1s linear;
+    text-decoration:none;
+    text-shadow:1px 1px 3px #5B42F3;
+    border-color: #5B42F3;
+    border-radius:3px;
+    border-bottom:3px solid #5B42F3;
+    box-shadow:1px 1px 3px #5B42F3;
+}
+
+.button-design2:hover{
+    background: -webkit-linear-gradient(to right, #AF40FF, #5B42F3);
+    color: #fff;
+    box-shadow: 0 0 5px #5B42F3,
+                0 0 25px #5B42F3,
+                0 0 50px #5B42F3,
+                0 0 200px #5B42F3;
+}

@@ -1,0 +1,18 @@
+.services-container {
+    margin: 110px 0 65px;
+    width: 100%;
+    background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.service {
+    padding: 50px 50px 40px;
+    text-align: center;
+}
+
+.service-icon {
+    font-size: 60px;
+    margin-bottom: 30px;
+}

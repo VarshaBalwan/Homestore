@@ -1,0 +1,64 @@
+.username {
+    font-size: 17px;
+    line-height: 14px;
+}
+
+.product-section {
+    margin: 40px;
+}
+
+.review-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-upload-container textarea {
+    height: 200px;
+    width: 100%;
+}
+
+.post-upload-container {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.post-header {
+    background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.post-avatar {
+    margin-right: 10px;
+}
+
+.post-review {
+    padding: 20px 20px;
+}
+
+.reviews {
+    width: 100%;
+}
+
+.reviews h1 {
+    color: #5B42F3;
+    margin-left: 60px;
+}
+
+.post {
+    max-width: 700px;
+    margin-left: 4rem;
+    margin-right: 6rem;
+    border: 1px solid lightgrey;
+}
+
+.post-container {
+    width: 100%;
+    align-items: right;
+    margin-bottom: 40px;
+}

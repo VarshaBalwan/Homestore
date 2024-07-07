@@ -1,0 +1,40 @@
+.payment-container {
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.items-section {
+    background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    color: #fff;
+}
+
+.payment-section {
+    height: 100vh;
+    overflow-y: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.payment-method {
+    color: #5B42F3;
+    background-color: #F4F6F6;
+}
+
+.payment-container h3 {
+    font-weight: bold;
+    padding: 0 2rem;
+}
+
+h3 {
+    padding: 1rem;
+}
+
+.city {
+    width: 20%;
+}
+
+.button-design2:disabled {
+    box-shadow: none;
+}

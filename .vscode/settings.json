@@ -1,0 +1,7 @@
+{
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+    "files.associations": {
+        "random": "cpp",
+        "*.tcc": "cpp"
+    }
+}

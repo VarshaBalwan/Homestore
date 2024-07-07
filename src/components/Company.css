@@ -1,0 +1,13 @@
+.company-container {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.img-container {
+    justify-content: center;
+}
+
+.company-container img {
+    width: 150px;
+    margin-left: 100px;
+}

@@ -1,0 +1,19 @@
+.cards {
+  margin: 0.5rem 1rem 1rem;
+  padding: 2rem 3rem;
+  background: #fff;
+}
+
+cards > h1 {
+  text-align: left;
+}
+
+.trending-items{
+  padding-top: 4%;
+}
+
+.trending-item-img{
+  width: 100%;
+  display: block;
+  height: auto;
+}

@@ -1,0 +1,34 @@
+.order-head {
+    color: #5B42F3;
+    padding-top: 1rem;
+    margin: 2rem 4rem;
+}
+
+.order {
+    color: #5B42F3;
+    margin: 2rem 4rem;
+    border-style: outset;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: #808080;
+}
+
+.date {
+    color: #fff;
+}
+
+.order-info-container {
+    color: #fff;
+    padding: 2rem;
+    background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.total {
+    color: #fff;
+    padding: 2rem;
+    background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

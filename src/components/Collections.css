@@ -1,0 +1,130 @@
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.heading span{
+    display: inline-block;
+    font-size: 3.5rem;
+    background: #3a86ff;
+    box-shadow: 0 1px 2px #00DDEB;
+    color: #fff;
+    border-radius: .5rem;
+    padding: .2rem 1rem; 
+    transition: all 0.1s;
+}
+
+.heading span:hover{
+    transform: translateY(-5px);
+    transform: rotate(20deg);
+    color: #AF40FF;
+
+}
+
+.heading span.space{
+    background: none;
+}
+
+.collections-container {
+    background-color: #fff;
+    padding: 1rem 3rem;
+    margin: 1rem;
+}
+
+.collections-container  h1 {
+    margin-bottom: 2rem;
+}
+
+.product-container {
+    width:49%;
+    margin-right:1%;
+}
+
+.product-container:hover{
+    z-index: 10;
+	-webkit-transform: scale(1.1);
+	-moz-transform:scale(1.1);
+	transform: scale(1.1);
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-container:not(:hover) {
+	opacity: 0.7;
+}
+
+.product-container {
+	background: #FEFEFE;
+	border: 2px solid #FAFAFA;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 0 25px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	padding: 10px;
+	padding-bottom: 5px;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+	opacity: 1;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.product-container img {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+.product-container figcaption {
+  font-size: .9rem;
+  color: #444;
+  line-height: 1.5;
+  height:60px;
+  font-weight:600;
+  text-overflow:ellipsis;
+}
+
+@media screen and (max-width: 960px) { 
+    .product-container { width: 24%; }
+  }
+  @media screen and (max-width: 767px) {
+    .product-container { width:32%;}
+  }
+  @media screen and (max-width: 600px) {
+    .product-container { width: 49%;}
+  }
+  @media screen and (max-width: 500px) {
+    .product-container { width: 100%;}
+  }
+
+.button-design {
+    padding:10px;
+    background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    margin:10px;
+    display:block;
+    text-align:center;
+    color:#fff;
+    transition:all 1s linear;
+    text-decoration:none;
+    text-shadow:1px 1px 3px #5B42F3;
+    border-color: #5B42F3;
+    border-radius:3px;
+    border-bottom:3px solid #5B42F3;
+    box-shadow:1px 1px 3px #5B42F3;
+}
+
+.button-design:hover{
+    background: -webkit-linear-gradient(to right, #AF40FF, #5B42F3);
+    color: #fff;
+    box-shadow: 0 0 5px #5B42F3,
+                0 0 25px #5B42F3,
+                0 0 50px #5B42F3,
+                0 0 200px #5B42F3;
+}
